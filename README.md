@@ -1,1 +1,1 @@
-# Global-AI-Hub-Projesi---Mehmet-Akif-Kara
+# Global-AI-Hub-Projesi--Mehmet-Akif-Kara
