@@ -15,18 +15,16 @@ I separated the training and test data. I also separated some of the training da
 In order to use the repeat() function, I created the dataset with tf.data.Dataset. I created a TensorFlow dataset to read image data, preprocess it, and convert its classes into one-hot encoding format, and prepared this dataset appropriately for training, validation, and testing phases, ensuring it was grouped.
 
 # 5- Creating the Model
-I created the deep learning model (convolutional neural network) and compiled this model using the categorical_crossentropy loss function with the adam optimization algorithm to perform the image classification task.
+I created a neural network model (Artificial Neural Network - ANN) using TensorFlow's Keras API, which consists of several layers including input, flattening, fully connected layers, dropout layers for regularization, and an output layer with softmax activation for classification, and then compiled it with an Adam optimizer and categorical crossentropy loss, incorporating early stopping to prevent overfitting
 
 # 6- Training the Model
-I calculated steps_per_epoch and validation_steps and trained the model with the correct number of data.
-The values ​​I got at the end of the 10th epoch are as follows: accuracy: 0.9757 - loss: 0.0738 - val_accuracy: 0.8656 - val_loss: 0.5890
+In this code, the steps_per_epoch and validation_steps are calculated based on the lengths of the training and validation datasets divided by the batch size, and then the model is trained using the fit method for 20 epochs with early stopping to prevent overfitting, while handling any potential errors that may occur during the training process.
 
-# 7- Performance Analysis and Visuals
+# 7- Loss and Accuracy Graphs
 I had the Loss and Accuracy graphs drawn in this section so I could more easily observe whether the model was overfit or not.
 
 # 8- Success on the Test Set
 I calculated the success on the test set and reached this result. 
-Test Accuracy: 0.8564
 
 # 9- Additional Images
 In this section, I have included some visuals for the model. The visuals included are:
