@@ -1,6 +1,8 @@
 A project where I worked on introductory level classification, data analysis, model development and evaluation techniques in the fields of deep learning and artificial neural networks (ANN) with a large scale fish dataset.
 
-Dataset: https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
+Kaggle Project Link: https://www.kaggle.com/code/akifkara217/global-ai-hub-ann-project?scriptVersionId=202555298
+
+Dataset Link: https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
 
 
 # Project Stages
