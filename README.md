@@ -3,7 +3,7 @@ A project where I worked on introductory level classification, data analysis, mo
 Dataset: https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
 
 # Project Stages
-***
+===============================
 
 # 1- Required Libraries
 First of all, I imported the necessary libraries in the project.
